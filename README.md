@@ -1,3 +1,95 @@
+**Projeto Componente com Sintaxe de Classe em React**
+
+**Introdução**
+
+Neste projeto, vamos aprender a criar um componente React utilizando a sintaxe de classe. Os componentes de classe são uma das maneiras de construir componentes no React e oferecem recursos como estados e ciclos de vida do componente.
+
+**Objetivo**
+
+O objetivo deste projeto é criar um componente simples chamado `MeuComponente` que exibe uma mensagem na tela. Este componente servirá como uma introdução ao uso de classes em React.
+
+**Passos para a Criação do Componente**
+
+1. **Configuração do Ambiente**
+
+Certifique-se de que você tem o ambiente React configurado. Isso geralmente envolve ter o Node.js instalado e criar um novo projeto React com o Create React App:
+
+```
+npx create-react-app meu-app
+cd meu-app
+```
+
+2. **Criação do Componente**
+
+a. **Crie um Novo Arquivo**
+
+Crie um novo arquivo chamado `MeuComponente.js` na pasta `src` do seu projeto React.
+
+b. **Escreva o Código do Componente**
+
+Insira o seguinte código no arquivo `MeuComponente.js`:
+
+```
+import React, { Component } from 'react';
+
+class MeuComponente extends Component {
+  render() {
+    return (
+      <div>
+        Olá, este é o meu componente!
+      </div>
+    );
+  }
+}
+
+export default MeuComponente;
+```
+
+3. **Utilização do Componente**
+
+Após criar o componente, você pode usá-lo em outros componentes do seu projeto, como o componente `App`.
+
+a. **Importe o Componente**
+
+No arquivo `App.js`, importe o `MeuComponente`:
+
+```
+import React from 'react';
+import MeuComponente from './MeuComponente';
+
+function App() {
+  return (
+    <div>
+      <MeuComponente />
+    </div>
+  );
+}
+
+export default App;
+```
+
+4. **Execução e Visualização**
+
+Execute seu aplicativo React para ver o componente em ação:
+
+```
+npm start
+```
+
+**Conclusão**
+
+Parabéns! Você criou com sucesso um componente React usando a sintaxe de classe. Este exemplo básico serve como uma introdução ao poderoso conceito de componentes em React, abrindo caminho para o aprendizado de estados, props e ciclos de vida de componentes. Continue explorando e experimentando com diferentes aspectos dos componentes React.
+
+**Resumo do Código**
+
+O código do componente `MeuComponente` é bastante simples. Ele herda da classe `Component` do React e define um método `render()` que retorna o JSX que será renderizado na tela. No caso deste exemplo, o JSX é simplesmente uma mensagem de texto.
+
+Para utilizar o componente `MeuComponente` em outro componente, basta importá-lo e usá-lo como um elemento do DOM. No exemplo, o componente `App` importa o `MeuComponente` e o renderiza dentro de um elemento `div`.
+
+Quando você executa o aplicativo React, o componente `MeuComponente` é renderizado na tela, exibindo a mensagem de texto.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
