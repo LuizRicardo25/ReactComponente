@@ -44,7 +44,7 @@ class MeuComponente extends Component {
 
 export default MeuComponente;
 ```
-
+ 
 3. **Utilização do Componente**
 
 Após criar o componente, você pode usá-lo em outros componentes do seu projeto, como o componente `App`.
@@ -88,7 +88,7 @@ Para utilizar o componente `MeuComponente` em outro componente, basta importá-l
 
 Quando você executa o aplicativo React, o componente `MeuComponente` é renderizado na tela, exibindo a mensagem de texto.
 
-
+Bons Estudos!!!
 
 # Getting Started with Create React App
 
