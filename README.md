@@ -14,7 +14,7 @@ O objetivo deste projeto é criar um componente simples chamado `MeuComponente` 
 
 Certifique-se de que você tem o ambiente React configurado. Isso geralmente envolve ter o Node.js instalado e criar um novo projeto React com o Create React App:
 
-```
+```bash
 npx create-react-app meu-app
 cd meu-app
 ```
@@ -29,7 +29,7 @@ b. **Escreva o Código do Componente**
 
 Insira o seguinte código no arquivo `MeuComponente.js`:
 
-```
+```bash
 import React, { Component } from 'react';
 
 class MeuComponente extends Component {
@@ -53,7 +53,7 @@ a. **Importe o Componente**
 
 No arquivo `App.js`, importe o `MeuComponente`:
 
-```
+```bash
 import React from 'react';
 import MeuComponente from './MeuComponente';
 
@@ -72,7 +72,7 @@ export default App;
 
 Execute seu aplicativo React para ver o componente em ação:
 
-```
+```bash
 npm start
 ```
 
