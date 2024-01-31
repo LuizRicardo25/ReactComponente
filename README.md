@@ -1,4 +1,4 @@
-**Projeto Componente com Sintaxe de Classe em React**
+# Projeto Componente com Sintaxe de Classe em React
 
 **Introdução**
 
